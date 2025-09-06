@@ -14,8 +14,6 @@
 10. [Notes](#notes)
 11. [Disclaimer](#disclaimer)
 
----
-
 ## Overview
 
 The **Clinic-in-a-Day** project is a group assignment designed to demonstrate the ability to design, build, 
@@ -24,8 +22,6 @@ a health drive, focusing on managing patients, doctors, services, appointments, 
 
 This project tests foundational database concepts, SQL skills (DDL, DML, DQL), data integrity through constraints, 
 and the ability to design and document a working system.
-
----
 
 ## System Architecture
 
@@ -39,8 +35,6 @@ and the ability to design and document a working system.
   * Each Invoice may receive multiple Payments.
 * **Constraints**: Primary keys, foreign keys, unique constraints, check constraints, and default values ensure referential integrity and data quality.
 
----
-
 ## Project Structure
 
 ```
@@ -48,8 +42,6 @@ clinic-in-a-day-sql/
 ├── Solution.sql
 └── README.md
 ```
-
----
 
 ## Installation Guide
 
@@ -62,8 +54,6 @@ clinic-in-a-day-sql/
 3. Open SQL Server Management Studio (SSMS).
 4. Run the script.
 
----
-
 ## Usage Manual
 
 * After installation, the database can be queried using SQL Server Management Studio.
@@ -74,8 +64,6 @@ clinic-in-a-day-sql/
   * Summarizing revenue by service.
   * Ranking doctors by number of completed appointments.
 
----
-
 ## Features
 
 * **Normalized schema** with referential integrity.
@@ -83,15 +71,11 @@ clinic-in-a-day-sql/
 * **Seed data** for testing with varied and realistic scenarios, including no-shows, cancellations, unpaid and partially paid invoices.
 * **Analytics queries** to demonstrate JOINs, aggregation, and reporting.
 
----
-
 ## Technology Stack
 
 * **Database**: Microsoft SQL Server 2012+
 * **Language**: SQL (DDL, DML, DQL)
 * **Tools**: SQL Server Management Studio (SSMS)
-
----
 
 ## Development Notes
 
@@ -101,22 +85,16 @@ clinic-in-a-day-sql/
 * DECIMAL used for monetary values to avoid floating-point errors.
 * Example data includes 20 patients, 5 doctors, 6 services, 30 appointments, 26 invoices, and 18 payments.
 
----
-
 ## Documentation
 
 * SQL scripts contain inline comments explaining design choices and logic.
 * This README provides process documentation for system design and implementation.
-
----
 
 ## Notes
 
 * The database is simplified for educational purposes.
 * In production, further normalization may be needed (for example, invoice items for multiple services per invoice).
 * The current model assumes one service per appointment.
-
----
 
 ## DISCLAIMER
 
