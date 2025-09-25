@@ -1,6 +1,7 @@
 # Clinic-in-a-Day SQL Project
 
 ## Table of Contents  
+
 – [Project Overview](#project-overview)  
 – [Technology Stack](#technology-stack)  
 – [Project Structure](#project-structure)  
